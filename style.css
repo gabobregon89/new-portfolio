@@ -1,0 +1,34 @@
+.header {
+    background-image: url('./assets/images/fondo2.avif');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30vh;
+}
+
+
+
+.enlaces_enlace {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+    align-items: center;
+}
+
+.navegacion_titulo {
+    color: red;
+    font-size: 2rem;
+    justify-content: ce;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
