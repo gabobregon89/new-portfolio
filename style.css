@@ -20,6 +20,7 @@ html {
 
 .navegacion_titulo {
     color: white;
+    padding: 10px 20px;
 }
 
 .enlaces {
@@ -38,11 +39,14 @@ html {
 }
 
 .enlaces_enlace:hover {
-  color: #007acc; /* cambia color al pasar el mouse */
+  color: #007acc;
+}
+
+.enlaces_enlace.nav {
+    padding: 10px 20px;
 }
 
 .principal {
-    /* background-image: url("./assets/images/fondo3.jpg"); */
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -67,15 +71,11 @@ html {
 }
 
 #proyectos {
-    /* display: grid; */
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     gap: 20px;
     padding: 20px;
     height: 50vh;
 }
 
-.section__contenedor_info {
-}
 
 .section__contenedor_botones {
     display: flex;
@@ -97,11 +97,16 @@ html {
 
 .footer {
     background-color: rgb(255, 0, 0, 0.1);
-    color: black;
     font-size: 1.2rem;
     text-align: center;
-    padding: 20px;
-    height: 100px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.footer_titulo {
+    color: white;
+    padding: 10px 20px;
 }
 
 .footer__lista {
