@@ -50,7 +50,7 @@ html {
 }
 
 .section {
-    padding: 0 20px;
+    padding: 0 10px;
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     width: auto;
@@ -66,6 +66,14 @@ html {
     position: relative;
 }
 
+#proyectos {
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    gap: 20px;
+    padding: 20px;
+    height: 50vh;
+}
+
 .section__contenedor_info {
 }
 
@@ -79,9 +87,27 @@ html {
 }
 
 #sobre-mi {
+    padding: 20px;
     background: linear-gradient(
     90deg,
     var(#0f092180) 20%,
     transparent 40%
   );
+}
+
+.footer {
+    background-color: rgb(255, 0, 0, 0.1);
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+}
+
+.footer__lista {
+    color: black;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
